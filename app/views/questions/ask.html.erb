@@ -1,11 +1,7 @@
-<em>Stupid Coaching</em><br>
-Ask your coach anything
+<h1><em>Stupid</em> Coaching</h1>
+<h2>Ask your coach anything</h2>
 
 <form action="/answer" method="get">
-  <%# <input type="text" name="???"> %>
-  <input type="text"
-       name="question"
-       value="<%= params[:question] %>"
-       placeholder="Your question !">
+  <input type="text" name="question" value="<%= params[:member] %>" placeholder="Your question !">
   <input type="submit" value="Ask!">
 </form>
